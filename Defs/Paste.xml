@@ -1,0 +1,28 @@
+<Defs>
+    <ThingDef ParentName="MealBase">
+    <defName>MealUpgradedNutrientPaste</defName>
+    <label>upgraded nutrient paste meal</label>
+    <description>Cooked meats and vegies as a paste-like substance. Doesn't taste amazing, but it doesn't taste terrible either..</description>
+    <graphicData>
+      <texPath>Things/Item/Meal/UpgradedMeal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>16</MarketValue>
+      <Nutrition>0.9</Nutrition>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+	  <tasteThought>AteFineMeal</tasteThought>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+    <tradeability>Buyable</tradeability>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>0.75</daysToRotStart>  <!-- short rot time, you want to make them as needed not store them -->
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>
