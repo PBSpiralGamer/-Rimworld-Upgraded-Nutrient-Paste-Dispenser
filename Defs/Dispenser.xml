@@ -1,9 +1,9 @@
 <Defs>
-<ThingDef ParentName="BuildingBase">
+  <ThingDef ParentName="BuildingBase">
     <defName>UpgradedNutrientPasteDispenser</defName>
     <label>upgraded nutrient paste dispenser</label>
     <description>An upgraded form of the nutrient paste dispenser. It takes more food, but outputs higher quality meals.</description>
-    <thingClass>DispenserCode.Building_UpgradedNutrientPasteDispenser</thingClass>
+    <thingClass>UpgradedNutrientPasteDispenser.Building_UpgradedNutrientPasteDispenser</thingClass>
     <graphicData>
       <texPath>Things/Building/Production/Upgraded Nutrient Dispenser/Upgraded_Nutrient_paste_dispenser</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -45,16 +45,16 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>350</basePowerConsumption>
       </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Breakdownable" />
     </comps>
     <size>(3,4)</size>
     <costList>
       <Steel>200</Steel>
-	  <Plasteel>25</Plasteel>
-	  <Gold>20</Gold>
+      <Plasteel>25</Plasteel>
+      <Gold>20</Gold>
       <ComponentIndustrial>5</ComponentIndustrial>
-	  <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
     <placeWorkers>
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
@@ -72,5 +72,5 @@
     <researchPrerequisites>
       <li>NutrientPaste</li>
     </researchPrerequisites>
-</ThingDef>
+  </ThingDef>
 </Defs>

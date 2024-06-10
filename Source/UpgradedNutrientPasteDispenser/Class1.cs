@@ -10,7 +10,7 @@ using Verse.AI;
 using Verse.Sound;
 
 
-namespace DispenserCode
+namespace UpgradedNutrientPasteDispenser
 {
     [DefOf]
     public static class DefOfUpgradedPasteMeal
