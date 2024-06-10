@@ -23,7 +23,7 @@ jobs:
             - name: Build Mod
               env:
                   RimWorldVersion: 1.5
-              run: dotnet build Source/UpgradedNutrientPasteDispenser.sln
+              run: dotnet build --configuration Release Source/UpgradedNutrientPasteDispenser.sln
 
             - name: Upload Mod Artifacts
               uses: actions/upload-artifact@v4
