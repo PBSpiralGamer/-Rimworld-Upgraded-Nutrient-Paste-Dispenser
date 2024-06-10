@@ -1,9 +1,26 @@
 <ModMetaData>
-	<name>Upgraded Nutrient Paste Dispenser</name>
-<description>Huge thanks to ilyvion for helping with the C# code. Without them, this mod wouldn't be up. \n \n Ever been willing to give up an arm and leg just so you could have something than nutrient paste come out the dispenser? Well, now you can! Combine steel, gold, plasteel, components, and advanced components to be able to build the new Upgraded Nutrient Paste Dispenser!</description>
-	<author>PBSpiralGamer, ilyvion</author>
-	<supportedVersions>
-		<li>1.5</li>
-	</supportedVersions>
-	<packageId>spiral.upgradednutrientpastedispenser</packageId>
+    <name>Upgraded Nutrient Paste Dispenser</name>
+    <description>Huge thanks to ilyvion for helping with the C# code. Without them, this mod wouldn't be up. \n \n Ever been willing to give up an arm and leg just so you could have something than nutrient paste come out the dispenser? Well, now you can! Combine steel, gold, plasteel, components, and advanced components to be able to build the new Upgraded Nutrient Paste Dispenser!</description>
+    <author>PBSpiralGamer, ilyvion</author>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>spiral.upgradednutrientpastedispenser</packageId>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+        <li>
+            <packageId>ilvyion.NutrientDispenserDispensableFix</packageId>
+            <displayName>Nutrient Dispenser Dispensable Fix</displayName>
+            <downloadUrl>https://github.com/ilyvion/nutrient-dispenser-dispensable-fix/releases/latest</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3265088960</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <loadAfter>
+        <li>ilvyion.NutrientDispenserDispensableFix</li>
+    </loadAfter>
 </ModMetaData>
