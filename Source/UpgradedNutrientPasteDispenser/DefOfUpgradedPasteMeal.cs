@@ -1,16 +1,12 @@
-using RimWorld;
-using Verse;
+namespace UpgradedNutrientPasteDispenser;
 
-namespace UpgradedNutrientPasteDispenser
+[DefOf]
+public static class UpgradedPasteMealDefOf
 {
-    [DefOf]
-    public static class UpgradedPasteMealDefOf
-    {
-        public static ThingDef MealUpgradedNutrientPaste;
+    public static ThingDef MealUpgradedNutrientPaste;
 
-        static UpgradedPasteMealDefOf()
-        {
-            DefOfHelper.EnsureInitializedInCtor(typeof(UpgradedPasteMealDefOf));
-        }
+    static UpgradedPasteMealDefOf()
+    {
+        DefOfHelper.EnsureInitializedInCtor(typeof(UpgradedPasteMealDefOf));
     }
 }
