@@ -72,5 +72,11 @@
     <researchPrerequisites>
       <li>Fabrication</li>
     </researchPrerequisites>
+    <modExtensions>
+      <li Class="UpgradedNutrientPasteDispenser.UpgradedNutrientPasteDispenserModExtension">
+        <meatNutritionCostPerDispense>0.3</meatNutritionCostPerDispense>
+        <veggieNutritionCostPerDispense>0.3</veggieNutritionCostPerDispense>
+      </li>
+    </modExtensions>
   </ThingDef>
 </Defs>
